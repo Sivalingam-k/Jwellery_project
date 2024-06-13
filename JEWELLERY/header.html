@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        .head {
+        height: 150px;
+        border: 2px solid rgb(230, 230, 233);
+        border-radius: 15px 15px 0px 0px;
+        font-size: 74px;
+        text-align: center;
+        font-family: math;
+        /* font-style: normal; */
+        font-weight: 700;
+        padding: 7px;
+        text-shadow: 2px -4px rgb(221, 147, 10);
+        color: rgb(219, 219, 233);
+        background-color: grey;
+        position:sticky;
+        top:0;
+        z-index: 1;
+      }
+      .head img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 44px;
+      }
+      .title {
+        display: inline;
+        position: relative;
+        top: 10px;
+      }
+      .head form {
+        float: right;
+        position: relative;
+        top: 46px;
+        right: 114px;
+      }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgU5qrqz0T0XFE-aqYIe-Q1JbIUjUgK_S9K4uMr99Qeshr-wlvBWwLK8ufvPP2BK6Nlck&usqp=CAU"
+          alt=""
+        />
+        <div class="title">ABC Jewellery</div>
+  
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </header>
+      
+</body>
+</html>
